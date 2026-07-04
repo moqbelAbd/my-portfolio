@@ -1,0 +1,30 @@
+
+.btn-primary-custom{
+    display:inline-block;
+    background:var(--primary);
+    color:white;
+    padding:14px 32px;
+    border-radius:8px;
+    transition:.3s;
+    font-weight:600;
+}
+
+.btn-primary-custom:hover{
+    background:var(--primary-hover);
+    color:white;
+}
+
+.btn-secondary-custom{
+    display:inline-block;
+    border:2px solid var(--primary);
+    color:white;
+    padding:14px 32px;
+    border-radius:8px;
+    margin-left:15px;
+    transition:.3s;
+}
+
+.btn-secondary-custom:hover{
+    background:rgba(48, 48, 48, 0.349);
+    color:white;
+}

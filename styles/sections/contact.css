@@ -1,0 +1,22 @@
+
+.contact-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    max-width:650px;
+    margin:auto;
+    background:var(--surface);
+    padding:40px;
+    border-radius:12px;
+    gap: 10px 60px;
+}
+
+.contact-info p{
+    margin-bottom:25px;
+    font-size:18px;
+}
+
+.contact-info i{
+    color:var(--primary);
+    width:40px;
+    font-size:20px;
+}

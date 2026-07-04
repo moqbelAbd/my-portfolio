@@ -1,0 +1,15 @@
+
+:root{
+
+    --bg:#141414;
+    --surface:#161920;
+    --primary:#E46400;
+    --primary-hover:#ff7b15;
+    --white:#FFFFFF;
+    --gray:#B8B8B8;
+    --border:#2B2F39;
+
+    --heading:'Poppins',sans-serif;
+    --body:'Inter',sans-serif;
+
+}

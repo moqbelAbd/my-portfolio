@@ -1,0 +1,13 @@
+
+#about{
+    background:var(--surface);
+}
+
+#about p{
+    max-width:850px;
+    margin:auto;
+    text-align:center;
+    color:var(--gray);
+    font-size:18px;
+    line-height:1.9;
+}
