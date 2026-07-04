@@ -22,6 +22,7 @@
     background:var(--bg);
     border-radius:12px;
     border-left:5px solid var(--primary);
+    max-height: 300px;
 }
 
 .experience-card h3{
@@ -41,4 +42,17 @@
 
 .experience-card p{
     color:var(--gray);
+}
+
+
+@media(max-width:780px){
+
+    #experience{
+        justify-self: center;
+    }
+
+    .experience-cards{
+        flex-direction: column;
+    }
+
 }

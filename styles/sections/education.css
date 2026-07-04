@@ -17,7 +17,7 @@
 }
 
 .education-card{
-    max-height: 240px;
+    max-height: 260px;
     background:var(--surface);
     padding:40px;
     border-left:5px solid var(--primary);
@@ -42,4 +42,15 @@
 .education-card span{
     color:var(--primary);
     font-weight:600;
+}
+
+
+
+
+@media(max-width:660px){
+
+    .education-cards{
+        flex-direction: column;
+    }
+
 }

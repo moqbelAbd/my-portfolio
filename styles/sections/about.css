@@ -1,6 +1,7 @@
 
 #about{
     background:var(--surface);
+    
 }
 
 #about p{
@@ -10,4 +11,13 @@
     color:var(--gray);
     font-size:18px;
     line-height:1.9;
+}
+
+@media(max-width:768px){
+
+#about{
+width: 90%;
+justify-self: center;
+}
+
 }

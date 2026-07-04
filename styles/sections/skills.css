@@ -38,3 +38,21 @@ margin-bottom: 20px;
     color:var(--gray);
     line-height:2;
 }
+
+
+@media(max-width:768px){
+
+.skills-grid{
+    grid-template-columns:1fr;
+}
+
+}
+
+
+@media(max-width:480px){
+
+.experience-card{
+    padding:25px;
+}
+
+}
