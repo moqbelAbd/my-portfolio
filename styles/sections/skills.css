@@ -39,6 +39,31 @@ margin-bottom: 20px;
     line-height:2;
 }
 
+.section-icon{
+    font-size:42px;
+    color:var(--primary);
+    margin-bottom:20px;
+}
+
+.skill-list{
+    list-style:none;
+    padding:0;
+    margin-top:20px;
+}
+
+.skill-list li{
+    display:flex;
+    gap:12px;
+    margin:12px 0;
+    color:var(--gray);
+    font-size:16px;
+}
+
+.skill-list li i{
+    width:24px;
+    color:var(--primary);
+    font-size:20px;
+}
 
 @media(max-width:768px){
 
