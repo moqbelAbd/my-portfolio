@@ -14,7 +14,7 @@
 
 .project-card:hover{
     transform:translateY(-10px);
-    box-shadow:0 12px 30px rgba(0,0,0,.4);
+    box-shadow:0 4px 8px var(--primary);
 }
 
 .project-card img{
@@ -77,24 +77,28 @@ color: white;
 .project-footer{
     display: flex;
     margin: 16px;
-    gap: 12px;
+    justify-content:space-around ;
 }
 
 
-@media(max-width:768px){
+@media(max-width:790px){
 
 .projects-grid{
     grid-template-columns:1fr;
 }
 
+.project-card{
+    width:70%;
+    justify-self: center;
+}
 }
 
 
 
-@media(max-width:480px){
+@media(max-width:600px){
 
-.education-card{
-
+.project-card{
+    width:75%;
     padding:25px;
 
 }

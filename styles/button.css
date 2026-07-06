@@ -1,5 +1,5 @@
 
-.btn-primary-custom{
+.btn-primary{
     display:inline-block;
     background:var(--primary);
     color:white;
@@ -9,12 +9,12 @@
     font-weight:600;
 }
 
-.btn-primary-custom:hover{
+.btn-primary:hover{
     background:var(--primary-hover);
     color:white;
 }
 
-.btn-secondary-custom{
+.btn-secondary{
     display:inline-block;
     border:2px solid var(--primary);
     color:white;
@@ -24,7 +24,7 @@
     transition:.3s;
 }
 
-.btn-secondary-custom:hover{
+.btn-secondary:hover{
     background:rgba(48, 48, 48, 0.349);
     color:white;
 }

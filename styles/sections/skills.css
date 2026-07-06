@@ -11,7 +11,8 @@ margin-bottom: 20px;
 
 .skill-card{
     background:var(--surface);
-    padding:35px;
+    padding:18px;
+    padding-top:24px;
     text-align:center;
     border-radius:12px;
     transition:.35s;
@@ -21,6 +22,7 @@ margin-bottom: 20px;
     transform:translateY(-10px);
     box-shadow:0 10px 25px rgba(0,0,0,.3);
 }
+
 
 .skill-card i{
     font-size:42px;
@@ -48,7 +50,9 @@ margin-bottom: 20px;
 .skill-list{
     list-style:none;
     padding:0;
-    margin-top:20px;
+    margin-top:28px;
+    margin-bottom:0;
+    justify-self: center;
 }
 
 .skill-list li{
@@ -65,19 +69,16 @@ margin-bottom: 20px;
     font-size:20px;
 }
 
-@media(max-width:768px){
+@media(max-width:550px){
 
 .skills-grid{
     grid-template-columns:1fr;
+    width: 70%;
+    justify-self: center;
+    margin-top: 24px;
 }
 
 }
 
 
-@media(max-width:480px){
 
-.experience-card{
-    padding:25px;
-}
-
-}

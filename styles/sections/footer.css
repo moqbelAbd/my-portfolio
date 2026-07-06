@@ -1,15 +1,23 @@
 
 footer{
-    display: flex;
-    flex-direction: column;
-    padding:35px 0;
     background:#0f1118;
-    text-align:center;
     border-top:1px solid var(--border);
+    padding:20px 0;
+}
+
+.footer{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:20px;
 }
 
 footer p{
-    display: inline;
     color:var(--gray);
-    margin:8px 0;
+    margin:0;
+}
+
+.logo-img{
+    width:60px;
+    height:auto;
 }
