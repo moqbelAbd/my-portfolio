@@ -38,7 +38,7 @@
     display: flex;
     align-items: flex-start;
     gap: 20px;
-    background: #20242d;
+    background: #292b30;
     padding: 25px;
     border-radius: 12px;
     border-left: 4px solid var(--primary);
