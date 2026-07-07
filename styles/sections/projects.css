@@ -98,13 +98,21 @@ color: white;
 @media(max-width:600px){
 
 .project-card{
-    width:75%;
-    padding:25px;
+    width:85%;
 
 }
 
 .project-content{
     padding:20px;
+    gap:20px;
 }
 
+.project-footer{
+    justify-items: space-around;
+}
+
+.btn-primary,
+.btn-secondry{
+    padding:14px 18px
+}
 }

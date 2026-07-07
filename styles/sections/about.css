@@ -73,8 +73,13 @@ justify-self: center;
 display: block;
 background-color: transparent;
 justify-items: center;
+width: 100%;
+padding: 20px 0;
 }
 
+.highlight-card{
+    width: 100%;
+}
 .about-content{
     display: none;
 }
