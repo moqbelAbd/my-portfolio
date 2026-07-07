@@ -234,8 +234,7 @@ margin-bottom: 12px;
     margin-left:0;
 }
 
-.stats{
-}
+
 
 .stat{
         padding: 10px 15px;
@@ -287,6 +286,13 @@ margin-bottom: 12px;
     font-size:30px;
 }
 
+.stats{
+    width: 96%;
+}
+
+.stat{
+    padding: 10px 10px;
+}
 .hero-actions{
     margin: 40px 0 0 0;
 
